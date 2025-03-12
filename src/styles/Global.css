@@ -1,0 +1,47 @@
+:root{
+    --primary-color:#9bb6a1;
+    --dark-primary-color: #3b7b7a;
+    --secondary-color: #eae3c3;
+    --background-color: #858585;
+    --contrast-background-color: #fbfcf8;
+    --text-color: #1a1a1a;
+    --border-color: #1a1a1a;
+    --secondary-text-color: #757575;
+    --contrast-text-color:#fbfcf8;
+    --primary-font: Arial;
+    --accent-color-negative: #e8083e;
+    --accent-color-positive: #02864a;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+}
+
+.ContainerPage {
+    background-color: grey;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+}
+
+
+
+.BannerText {
+    color: var(--contrast-text-color);
+    display: flex;
+    justify-content: left;
+    height: 74px;
+    margin-left: 48px;
+    margin-top: 19px    ;
+    margin-bottom: 19px;
+    font-family: Arial;
+    font-size: 2.5rem;
+    align-items: center;
+}
