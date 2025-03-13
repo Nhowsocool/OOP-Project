@@ -28,7 +28,7 @@ const PatientRegist = () => {
                             <h1>First Name</h1>
                             <h2>Last Name</h2>
                         </div>
-                        <div className="parent-input">
+                        <div className="patient-input">
                         <div className="firstname-input">
                         <input name="search" type="text" placeholder=""></input>
                         </div>
@@ -40,25 +40,104 @@ const PatientRegist = () => {
 
                     <div className="profile-page-card-child-right-middle">
                     <div className="secondtitle">
-                            <h1>First Name</h1>
-                            <h2>Last Name</h2>
+                            <h1>Gender</h1>
+                            <h2>Date of Birth</h2>
+                            <h3>Age</h3>
+                            <h4>Blood Group</h4>
                         </div>
-                        <div className="parent-input">
-                        <div className="firstname-input">
-                        <input name="search" type="text" placeholder=""></input>
+                        <div className="container">
+                        <div className="patient-input">
+                            <div className="gender-input">
+                                <button>
+                            <span></span>
+                            <svg width="39" height="29" viewBox="0 0 39 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.375 12.0833L19.5 18.125L27.625 12.0833H11.375Z" fill="#1D1B20"/>
+</svg>
+
+                                </button>
+                                <div className="dropdown1">
+                                    <ul>
+                                        <li>
+                                            <a>
+                                                <span>Male</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <span>Female</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        <div className="dateofbirth-input">
+                            <input name="search" type="text" placeholder=""></input>
                         </div>
-                        <div className="lastname-input">
-                        <input name="search" type="text" placeholder=""></input>
+
+                        <div className="age-input">
+                            <input name="search" type="text" placeholder=""></input>
+                        </div>
+
+                        <div className="bloodtype-input">
+                                <button>
+                            <span></span>
+                            <svg width="39" height="29" viewBox="0 0 39 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.375 12.0833L19.5 18.125L27.625 12.0833H11.375Z" fill="#1D1B20"/>
+</svg>
+
+                                </button>
+                                <div className="dropdown2">
+                                    <ul>
+                                        <li>
+                                            <a>
+                                                <span>A</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <span>B</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <span>AB</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <span>O</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                         </div>
-                    </div>
 
                     <div className="profile-page-card-child-right-bottom">
-                    
+                        <div className="profile-page-card-child-right-bottom-left">
+                        <h1>Address</h1>
+                        <div className="address-input">
+                            <input name="search" type="text" placeholder=""></input>
+                        </div>
+
+
+                        </div>
+                        <div className="profile-page-card-child-right-bottom-right">
+                        <h1>Phone</h1>
+                        <div className="phone-input">
+                            <input name="search" type="text" placeholder=""></input>
+                        </div>
+                        <h1>Email</h1>
+                        <div className="email-input">
+                            <input name="search" type="text" placeholder=""></input>
+                        </div>
+                        </div>
                     </div>
             
                 </div>
         
+            </div>
             </div>
             </div>
       </div>
